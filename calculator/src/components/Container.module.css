@@ -1,0 +1,8 @@
+.calculator{
+    height: 90vh;
+    width: 40vw;
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(34, 34, 34);
+    padding: 5%;
+}

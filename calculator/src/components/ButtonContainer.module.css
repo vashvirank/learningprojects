@@ -1,0 +1,30 @@
+.buttonsContainer{
+    height: 85%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 6vw);
+    column-gap: 3.9vw;
+    /* row-gap: 10px; */
+}
+.button{
+    background-color: rgb(30, 30, 30);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    border: transparent;
+    font-size: 2.2vw;
+    font-weight: bolder;
+}
+.button:hover{
+    background-color: rgb(18, 18, 18);
+    color: rgba(255, 255, 255);
+    box-shadow: 5px 5px 15px rgb(34, 34, 34);
+}
+.blueButton{
+    background-color: rgba(100, 148, 237, 0.6);
+    color: white;
+}
+.blueButton:hover{
+    background-color: rgba(100, 148, 237, 0.8);
+}
+

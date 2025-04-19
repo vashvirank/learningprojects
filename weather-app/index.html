@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+
+            <div class="search-bar">
+                <div class="search-box">
+                    <img src="images/location.png" alt="">
+                    <input type="text" name="location" placeholder="enter your location...">
+                    <button>search</button>
+                </div>
+            </div>
+
+            <div class="loader">
+                <h2>LOADING...</h2>
+            </div>
+
+            <div class="error">
+                <h3>OOPS!!</h3>
+                <img src="images/error.png" alt="" style="width: 40%; aspect-ratio: 1/1;">
+                <h4>sorry! city not found...</h4>
+            </div>
+
+            <div class="weather-data active">
+
+                <div class="weather-box">
+                    <img src="images/Clear1.png" alt="">
+                    <div class="temperature">
+                        <span id="temp">0</span><span id="cel"> °C</span> 
+                    </div>
+                    <p class="description">Broken Clouds</p>
+                </div>
+    
+                <div class="weather-details">
+                    <div class="humidity">
+                        <img src="images/humidity1.png" alt="">
+                        <div class="text">
+                            <div class="info-humidity">
+                                <span>0</span>%
+                            </div>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+    
+                    <div class="wind">
+                        <img src="images/wind1.png" alt="">
+                        <div class="text">
+                            <div class="info-wind">
+                                <span>0</span> Km/h
+                            </div>
+                            <p>wind speed</p>
+                        </div>
+                    </div>
+    
+                    <div class="clouds">
+                        <img src="images/clouds1.png" alt="">
+                        <div class="text">
+                            <div class="info-clouds">
+                                <span>0</span>%
+                            </div>
+                            <p>clouds</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="sun-details">
+                    <div class="sunrise">
+                        <img src="images/sunrise.png" alt="">
+                        <div class="text">
+                            <div class="info-sunrise">
+                                <span>00:00:00 AM</span>
+                            </div>
+                            <p>sunrise</p>
+                        </div>
+                    </div>
+    
+                    <div class="sunset">
+                        <img src="images/sunset.png" alt="">
+                        <div class="text">
+                            <div class="info-sunset">
+                                <span>00:00:00 PM</span>
+                            </div>
+                            <p>sunset</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
